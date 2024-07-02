@@ -1,8 +1,8 @@
 import 'package:amaliyot_vazifa/controllers/quiz_controller.dart';
 import 'package:amaliyot_vazifa/firebase_options.dart';
-import 'package:amaliyot_vazifa/screens/home_screen.dart';
-import 'package:amaliyot_vazifa/screens/leaders_screen.dart';
-import 'package:amaliyot_vazifa/screens/login_screen.dart';
+import 'package:amaliyot_vazifa/view/screens/home_screen.dart';
+import 'package:amaliyot_vazifa/view/screens/leaders_screen.dart';
+import 'package:amaliyot_vazifa/view/screens/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -38,10 +38,14 @@ class MyApp extends StatelessWidget {
                 );
               }
               final data = snapshot.data;
-              return data == null ? const LoginScreen() : PageView(children: const [
-                QuizScreen(),
-                ManageQuestionScreen(),
-              ],);
+              return data == null
+                  ? const LoginScreen()
+                  : PageView(
+                      children: const [
+                        QuizScreen(),
+                        ManageQuestionScreen(),
+                      ],
+                    );
             },
           ),
         );

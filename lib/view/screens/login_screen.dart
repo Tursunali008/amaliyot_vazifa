@@ -1,4 +1,4 @@
-import 'package:amaliyot_vazifa/screens/register_screen.dart';
+import 'package:amaliyot_vazifa/view/screens/register_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';

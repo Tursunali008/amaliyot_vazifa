@@ -42,7 +42,7 @@ class _QuizScreenState extends State<QuizScreen> {
             children: [
               SafeArea(
                 child: Image.asset(
-                  "assets/images/reflectly.gif",
+                  "assets/images/img.png",
                   width: 70,
                   height: 70,
                 ),

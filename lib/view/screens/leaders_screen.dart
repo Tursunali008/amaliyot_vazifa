@@ -1,7 +1,7 @@
 import 'package:amaliyot_vazifa/controllers/quiz_controller.dart';
 import 'package:amaliyot_vazifa/model/quiz.dart';
-import 'package:amaliyot_vazifa/widgets/leaders_widget.dart';
-import 'package:amaliyot_vazifa/widgets/quiz_widget.dart';
+import 'package:amaliyot_vazifa/view/widgets/leaders_widget.dart';
+import 'package:amaliyot_vazifa/view/widgets/quiz_widget.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';

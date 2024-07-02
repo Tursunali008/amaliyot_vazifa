@@ -1,7 +1,7 @@
 import 'package:amaliyot_vazifa/controllers/quiz_controller.dart';
 import 'package:amaliyot_vazifa/model/quiz.dart';
 import 'package:amaliyot_vazifa/utils/app_const.dart';
-import 'package:amaliyot_vazifa/widgets/leaders_widget.dart';
+import 'package:amaliyot_vazifa/view/widgets/leaders_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
