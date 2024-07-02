@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1014654012011",
+    "firebase_url": "https://carsapp-5413c-default-rtdb.firebaseio.com",
+    "project_id": "carsapp-5413c",
+    "storage_bucket": "carsapp-5413c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014654012011:android:593bdec37e96c866debf2e",
+        "android_client_info": {
+          "package_name": "com.example.amaliyot_vazifa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3tcolRgTTw2S9CoVzZcUEYq5QohQP7qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
